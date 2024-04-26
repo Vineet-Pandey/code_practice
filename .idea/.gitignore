@@ -9,3 +9,7 @@
 .idea/
 cmake-build-debug/
 
+/code_practice.iml
+/misc.xml
+/modules.xml
+/vcs.xml
