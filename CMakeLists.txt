@@ -4,4 +4,5 @@ project(code_practice)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(code_practice #[[main.cpp]]
-        hash.cpp)
+        #[[hash.cpp]]
+        apple_stocks.cpp)
