@@ -48,8 +48,8 @@ PointerLearn* left_child_2 = left_child->insertRight(6);
 
 auto displayBinarytree = [&](PointerLearn* root,auto displayBinaryTree)->void{
     if(root != nullptr){
-        std::cout<<root->var_1 <<" ";
         displayBinaryTree(root->left, displayBinaryTree);
+        std::cout<<root->var_1 <<" ";
         displayBinaryTree(root->right, displayBinaryTree);
 
 
